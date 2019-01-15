@@ -33,5 +33,9 @@ public class LoginPage {
 	public void clickOnLogin() {
 		submitButton.click();
 	}
+	
+	public static void main(String[] args) {
+		System.out.println("Hello world !!");
+	}
 
 }

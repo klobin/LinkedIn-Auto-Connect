@@ -13,6 +13,7 @@ public class HomePageTest {
 	@Test
 	 public void init() throws Exception{
 	 HomePage homepage = PageFactory.initElements(driver, HomePage.class);
+	 homepage.goToSearchPage();
 	}
 
 }
